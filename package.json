@@ -1,10 +1,10 @@
 {
-           "name": "yummm-json-server",
-           "version": "1.0.0",
-           "scripts": {
-             "start": "json-server --watch db.json --port $PORT"
-           },
-           "dependencies": {
-             "json-server": "^0.17.4"
-           }
-         }
+     "name": "yummm-json-server",
+     "version": "1.0.0",
+     "scripts": {
+       "start": "node server.js"
+     },
+     "dependencies": {
+       "json-server": "^0.17.4"
+     }
+   }

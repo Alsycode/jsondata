@@ -6,7 +6,7 @@ const jsonServer = require('json-server');
    server.use(middlewares);
    server.use(router);
 
-   const port = process.env.PORT || 6000;
+   const port = process.env.PORT || 10000;
    server.listen(port, '0.0.0.0', () => {
      console.log(`JSON Server is running on http://0.0.0.0:${port}`);
    });
